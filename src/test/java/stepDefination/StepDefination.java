@@ -15,6 +15,7 @@ public class StepDefination {
     @When("User login into application with username {string} and password {string}")
     public void user_login_into_application_with_username_something_and_password_something(String strArg1, String strArg2) throws Throwable {
         System.out.println(strArg1);
+        System.out.println("\n");
         System.out.println(strArg2);
     }
 
